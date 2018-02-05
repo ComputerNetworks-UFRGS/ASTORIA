@@ -59,7 +59,7 @@ $ ./waf
 $ ./waf --run scratch mosaik-ns3-integration
 ```
 
-2. In a new terminal access mosaik folder which you have cloned from this repository and execute:
+2. In a new terminal access Mosaik folder you cloned from this repository and execute:
 
 ```
 $ sudo pip install -U virtualenv
@@ -67,6 +67,7 @@ $ virtualenv -p /usr/bin/python3 ~/.virtualenvs/mosaik
 $ source ~/.virtualenvs/mosaik/bin/activate
 $ (mosaik)$ pip install mosaik
 $ (mosaik)$ pip install -r requirements.txt
+$ (mosaik)$ python mosaik-ns3.py
 ```
 
 ### Referencing and Citation
